@@ -43,7 +43,7 @@ print(f"Responsable : {json_data['zone']['responsable']['prenom']} {json_data['z
 # facultatif on peut mettre objet dictionnaire responsable dans une variable spécifique
 # responsable = data[.....
 
-responsable = json_data['zone']['responsable']['prenom']+" "+json_data['zone']['responsable']['nom']
+responsable = json_data['zone']['responsable']['prenom']+" "+json_data['zone']['responsable']['nom']+" "+json_data['zone']['responsable']['email']
 
 # compléter : pour afficher les équipements
 
